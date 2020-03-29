@@ -1,4 +1,4 @@
-package com.jerryl.activiti.config;
+package com.sim.activiti.config;
 
 import org.activiti.engine.*;
 import org.activiti.engine.impl.cfg.ProcessEngineConfigurationImpl;
@@ -30,9 +30,9 @@ public class Cfg_Activiti {
         processEngineConfiguration.setTransactionManager(transactionManager);
 
         //流程图字体
-        processEngineConfiguration.setActivityFontName("宋体");
-        processEngineConfiguration.setAnnotationFontName("宋体");
-        processEngineConfiguration.setLabelFontName("宋体");
+        processEngineConfiguration.setActivityFontName("黑体");
+        processEngineConfiguration.setAnnotationFontName("黑体");
+        processEngineConfiguration.setLabelFontName("黑体");
 
         return processEngineConfiguration;
     }

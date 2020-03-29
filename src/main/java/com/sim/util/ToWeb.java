@@ -1,4 +1,4 @@
-package com.jerryl.util;
+package com.sim.util;
 
 import java.util.HashMap;
 import java.util.List;

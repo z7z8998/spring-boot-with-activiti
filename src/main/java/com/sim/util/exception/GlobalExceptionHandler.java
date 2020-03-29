@@ -1,10 +1,11 @@
-package com.jerryl.util.exception;
+package com.sim.util.exception;
 
-import com.jerryl.util.Status;
-import com.jerryl.util.ToWeb;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
+
+import com.sim.util.Status;
+import com.sim.util.ToWeb;
 
 /**
  * Created by liuruijie on 2016/12/28.

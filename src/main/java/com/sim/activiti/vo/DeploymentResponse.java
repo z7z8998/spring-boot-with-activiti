@@ -1,4 +1,4 @@
-package com.jerryl.activiti.vo;
+package com.sim.activiti.vo;
 
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import org.activiti.engine.repository.Deployment;

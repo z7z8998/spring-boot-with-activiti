@@ -1,4 +1,4 @@
-package com.jerryl.common;
+package com.sim.common;
 
 import org.springframework.web.bind.annotation.*;
 

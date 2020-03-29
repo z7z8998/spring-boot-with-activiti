@@ -1,4 +1,4 @@
-package com.jerryl.util.exception;
+package com.sim.util.exception;
 
 /**
  * Created by liuruijie on 2017/1/14.

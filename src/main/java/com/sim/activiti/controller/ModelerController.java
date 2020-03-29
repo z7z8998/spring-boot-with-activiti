@@ -1,11 +1,12 @@
-package com.jerryl.activiti.controller;
+package com.sim.activiti.controller;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
-import com.jerryl.common.RestServiceController;
-import com.jerryl.util.Status;
-import com.jerryl.util.ToWeb;
+import com.sim.common.RestServiceController;
+import com.sim.util.Status;
+import com.sim.util.ToWeb;
+
 import org.activiti.bpmn.converter.BpmnXMLConverter;
 import org.activiti.bpmn.model.BpmnModel;
 import org.activiti.editor.constants.ModelDataJsonConstants;
@@ -38,14 +39,15 @@ public class ModelerController implements RestServiceController<Model, String>{
      * @return
      * @throws UnsupportedEncodingException
      */
-    @PostMapping("newModel")
+    @SuppressWarnings("deprecation")
+	@PostMapping("newModel")
     public Object newModel() throws UnsupportedEncodingException {
         //初始化一个空模型
         Model model = repositoryService.newModel();
 
         //设置一些默认信息
         String name = "new-process";
-        String description = "";
+        String description = "新建流程模型";
         int revision = 1;
         String key = "process";
 
